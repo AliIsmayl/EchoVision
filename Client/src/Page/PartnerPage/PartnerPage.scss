@@ -1,0 +1,40 @@
+@mixin MyFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// @include MyFlex;
+#partnerPage {
+    background: #c5fff1;
+    padding: 30px 10px;
+    min-height: 100vh;
+    @include MyFlex;
+    .container {
+        background: rgb(216, 239, 208);
+        background: radial-gradient(circle, rgba(216, 239, 208, 1) 0%, rgba(36, 138, 141, 1) 89%);
+        padding: 20px 10px;
+        border-radius: 20px;
+        @include MyFlex;
+        gap: 20px;
+        flex-wrap: wrap;
+        .partnerLink {
+            background: #c5fff1;
+            border: 2px solid white;
+            @include MyFlex;
+            width: 290px;
+            padding: 0px 20px;
+            border-radius: 20px;
+            height: 180px;
+
+            .link {
+
+                img {
+                    max-width: 250px;
+                }
+            }
+        }
+
+
+    }
+}

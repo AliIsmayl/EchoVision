@@ -1,0 +1,82 @@
+@mixin MyFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// @include MyFlex;
+#buyPage {
+    background: #c5fff1;
+    min-height: 100vh;
+    padding: 20px 10px;
+    @include MyFlex;
+
+    .container {
+        background: rgb(216, 239, 208);
+        background: radial-gradient(circle, rgba(216, 239, 208, 1) 0%, rgba(36, 138, 141, 1) 89%);
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+
+        .informBox {
+            // text-align: start;
+            background: #248A8D;
+            width: 290px;
+            border-radius: 20px;
+            padding: 20px;
+            font-size: 17px;
+            border: 2px solid #c5fff1;
+            color: white;
+        }
+
+        .contactBox {
+            background: #248A8D;
+            width: 290px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border-radius: 15px;
+            height: 180px;
+            border: 2px solid #c5fff1;
+
+            .iconBox {
+                background: #c5fff1;
+                display: flex;
+                gap: 20px;
+                padding: 5px 20px;
+                border-radius: 10px;
+                align-items: center;
+                color: #111255;
+
+                h5 {
+                    font-size: 17px;
+                }
+
+                p {
+                    @include MyFlex;
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .mapBox {
+            background: #248A8D;
+            width: 290px;
+            @include MyFlex;
+            padding: 10px;
+            border-radius: 20px;
+            height: 300px;
+            border: 2px solid #c5fff1;
+
+            img {
+                max-width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

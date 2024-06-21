@@ -1,0 +1,51 @@
+@mixin MyFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// @include MyFlex;
+#downloaderPage {
+    background: #c5fff1;
+    padding: 20px 10px;
+    min-height: 100vh;
+    @include MyFlex;
+    .container {
+        background: rgb(216, 239, 208);
+        background: radial-gradient(circle, rgba(216, 239, 208, 1) 0%, rgba(36, 138, 141, 1) 89%);
+         @include MyFlex;
+        padding: 20px 10px;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        gap: 20px;
+
+        .downloadpacket {
+            width: 280px;
+            background: #c5fff1;
+            padding: 5px 6px;
+            border-radius: 10px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            .imgBox {
+                font-size: 30px;
+                @include MyFlex;
+            }
+
+            .textBox {
+                width: 180px;
+            }
+
+            button {
+                @include MyFlex;
+                font-size: 20px;
+                cursor: pointer;
+                border-radius: 20px;
+                padding: 2px;
+                border: 1px solid #111255;
+            }
+        }
+
+    }
+}

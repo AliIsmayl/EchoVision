@@ -1,0 +1,64 @@
+@mixin MyFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// @include MyFlex;
+#pricePage {
+    background: #c5fff1;
+    @include MyFlex;
+    min-height: 100vh;
+    padding: 20px 10px;
+
+    .container {
+        border-radius: 20px;
+        padding: 30px 20px;
+        background: rgb(216, 239, 208);
+        background: radial-gradient(circle, rgba(216, 239, 208, 1) 0%, rgba(36, 138, 141, 1) 89%);
+
+        @include MyFlex;
+        gap: 30px 50px;
+        flex-wrap: wrap;
+
+        .onePaket {
+            background: #c5fff1;
+            padding: 20px 12px 36px;
+            width: 260px;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 5px;
+            font-size: 20px;
+            position: relative;
+            color: #111255;
+
+            h1 {
+                margin-bottom: 10px;
+            }
+
+            h6 {
+                font-size: 17px;
+            }
+
+            .priceBox {
+                position: absolute;
+                bottom: -20px;
+                right: -15px;
+                background: #111255;
+                color: #c5fff1;
+                display: flex;
+                width: 140px;
+                padding: 3px 5px;
+                border-radius: 15px;
+                gap: 5px;
+                align-items: end;
+
+                p {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
