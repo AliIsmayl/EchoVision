@@ -9,10 +9,10 @@ function HomePage() {
       <div className="buttonsForm">
         <img src={Logo} alt="" />
         <Link to={"inform"}>
-          <button>İnformation</button>
+          <button>Information</button>
         </Link>
         <Link to={"pakets"}>
-          <button>Pakets</button>
+          <button>Packets</button>
         </Link>
         <Link to={'download'}>
           <button>Downloader</button>

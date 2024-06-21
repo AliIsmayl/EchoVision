@@ -72,6 +72,14 @@
             border-radius: 20px;
             height: 300px;
             border: 2px solid #c5fff1;
+            position: relative;
+
+            .mapIcon {
+                position: absolute;
+                bottom: 178px;
+                right: 100px;
+                color: #111255;
+            }
 
             img {
                 max-width: 100%;

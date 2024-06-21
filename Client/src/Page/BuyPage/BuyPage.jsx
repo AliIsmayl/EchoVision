@@ -3,7 +3,7 @@ import './BuyPage.scss'
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { MdOutlinePhone } from "react-icons/md";
-
+import { RiMapPin2Fill } from "react-icons/ri";
 function BuyPage() {
     return (
         <section id='buyPage'>
@@ -14,18 +14,19 @@ function BuyPage() {
                 <div className="contactBox">
                     <div className="iconBox">
                         <p><FaInstagram /></p>
-                        <h5>buyurudakn</h5>
+                        <h5>echo.vision</h5>
                     </div>
                     <div className="iconBox">
                         <p><FaFacebookF /></p>
-                        <h5>buyurudakn</h5>
+                        <h5>echo.vision</h5>
                     </div>
                     <div className="iconBox">
                         <p><MdOutlinePhone /></p>
-                        <h5>buyurudakn</h5>
+                        <h5>echo.vision</h5>
                     </div>
                 </div>
                 <div className="mapBox">
+                    <div className="mapIcon"><RiMapPin2Fill /></div>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mercator_projection_Square.JPG/640px-Mercator_projection_Square.JPG" alt="" />
                 </div>
             </div>
