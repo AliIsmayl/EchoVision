@@ -29,7 +29,7 @@ function BuyPage() {
                     <a href='mailto:echovisioncompany@gmail.com'>
                         <div className="iconBox">
                             <p><CiMail /></p>
-                            <h5 style={{ fontSize: "10px" }}>echovisioncompany@gmail.com</h5>
+                            <h5 style={{ fontSize: "12px" }}>echovisioncompany@gmail.com</h5>
                         </div>
                     </a>
 

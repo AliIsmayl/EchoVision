@@ -12,8 +12,8 @@ function PricePage() {
                     <p>1 language  features</p>
                     <h6 style={{ color: "green" }}>Active</h6>
                     <div className="priceBox">
-                        <p>$5</p>
-                        <span>monthly</span>
+                        <p>free</p>
+                        <span></span>
                     </div>
                 </div>
                 <div className="onePaket">
