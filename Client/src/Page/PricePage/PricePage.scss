@@ -17,7 +17,7 @@
         background: rgb(216, 239, 208);
         background: radial-gradient(circle, rgba(216, 239, 208, 1) 0%, rgba(36, 138, 141, 1) 89%);
 
-        // @include MyFlex;
+        @include MyFlex;
         display: flex;
         gap: 30px 50px;
         flex-wrap: wrap;
@@ -54,9 +54,12 @@
                 border-radius: 15px;
                 gap: 5px;
                 align-items: end;
-
                 p {
                     font-size: 40px;
+                }
+                span{
+                    font-size: 15px;
+                    margin-bottom: 5px;
                 }
             }
         }
