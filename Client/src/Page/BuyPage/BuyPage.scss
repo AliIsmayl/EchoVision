@@ -43,7 +43,11 @@
             border-radius: 15px;
             height: 180px;
             border: 2px solid #c5fff1;
+            a {
+                text-decoration: none;
+                color: #111255;
 
+            }
             .iconBox {
                 background: #c5fff1;
                 display: flex;
@@ -51,16 +55,11 @@
                 padding: 5px 10px;
                 border-radius: 10px;
                 align-items: center;
-                color: #111255;
 
                 h5 {
                     font-size: 17px;
 
-                    a {
-                        text-decoration: none;
-                        color: #111255;
-
-                    }
+                   
                 }
 
                 p {
