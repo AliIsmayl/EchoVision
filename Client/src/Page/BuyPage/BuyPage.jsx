@@ -1,7 +1,7 @@
 import React from 'react'
 import './BuyPage.scss'
 import { FaInstagram } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 import { MdOutlinePhone } from "react-icons/md";
 import { RiMapPin2Fill } from "react-icons/ri";
 function BuyPage() {
@@ -14,15 +14,15 @@ function BuyPage() {
                 <div className="contactBox">
                     <div className="iconBox">
                         <p><FaInstagram /></p>
-                        <h5>echo.vision</h5>
-                    </div>
-                    <div className="iconBox">
-                        <p><FaFacebookF /></p>
-                        <h5>echo.vision</h5>
+                        <h5><a href="">echovision2024</a></h5>
                     </div>
                     <div className="iconBox">
                         <p><MdOutlinePhone /></p>
-                        <h5>echo.vision</h5>
+                        <h5><a href="tel:077 336 95 55">+994 77 336 95 55</a></h5>
+                    </div>
+                    <div className="iconBox">
+                        <p><CiMail /></p>
+                        <h5 style={{ fontSize: "15px" }}><a href='mailto:echovisioncompany@gmail.com'>echovisioncompany@gmail.com</a></h5>
                     </div>
                 </div>
                 <div className="mapBox">
